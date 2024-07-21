@@ -2,6 +2,15 @@
 
 This repository contains a Jupyter notebook that demonstrates the estimation of the Fama French Carhart four-factor risk model exposures for an arbitrary stock using live data. In this example, we analyze Apple Inc. (AAPL) to understand how its returns are influenced by various risk factors.
 
+## Fama French Carhart Four-Factor Model
+
+The four factors in this model are:
+
+1. **Market Risk Premium (Mkt-RF):** Represents the excess return of the market over the risk-free rate. Measures overall market risk.
+2. **Size (SMB - Small Minus Big):** Captures the size effect by comparing returns of small-cap stocks to large-cap stocks.
+3. **Value (HML - High Minus Low):** Measures the value effect by comparing high book-to-market (value) stocks to low book-to-market (growth) stocks.
+4. **Momentum (MOM):** Accounts for the momentum effect, where past performance trends continue.
+
 ## Libraries Used
 
 The following libraries were used in this project:
@@ -56,7 +65,6 @@ The following libraries were used in this project:
   - Indicates no significant autocorrelation in the residuals.
 
 ### Interpretation
-
 - The market risk premium and value factors are significant in explaining Apple's excess returns, with the market risk premium having a strong positive impact and the value factor having a significant negative impact.
 - The size and momentum factors do not significantly affect Apple's returns.
 - While the model is statistically significant and explains a portion of the variance in Apple's returns, the residuals show some non-normality, indicating that there are potential areas for model improvement.
