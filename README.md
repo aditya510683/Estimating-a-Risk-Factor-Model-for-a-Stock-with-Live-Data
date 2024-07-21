@@ -2,6 +2,15 @@
 
 This repository contains a Jupyter notebook that demonstrates the estimation of the Fama French Carhart four-factor risk model exposures for an arbitrary stock using live data. In this example, we analyze Apple Inc. (AAPL) to understand how its returns are influenced by various risk factors.
 
+## Libraries Used
+
+The following libraries were used in this project:
+- `pandas`: For data manipulation and analysis.
+- `numpy`: For numerical computations.
+- `statsmodels`: For performing OLS regression analysis.
+- `yfinance`: For retrieving financial data from Yahoo Finance.
+- `matplotlib`: For data visualization.
+
 ## Summary
 
 - The model explains 28.8% of the variance in Apple's excess returns.
